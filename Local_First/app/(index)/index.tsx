@@ -1,12 +1,10 @@
 import { ThemedText } from "@/components/ThemedText";
 import { View } from "react-native";
 
-const Main=()=>{
+const Auth=()=>{
     return (
        <View>
-        <ThemedText>hi Main Screen</ThemedText>
+        <ThemedText>hi Sign in Screen</ThemedText>
        </View>
     );
 }
-
-export default Main;
